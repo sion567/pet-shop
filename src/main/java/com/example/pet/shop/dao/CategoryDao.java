@@ -4,6 +4,6 @@ import com.example.pet.shop.common.base.repository.BaseRepository;
 import com.example.pet.shop.model.Category;
 import org.springframework.stereotype.Repository;
 
-@Repository("categoryDAO")
-public interface CategoryDAO  extends BaseRepository<Category, Long> {
+@Repository("categoryDaO")
+public interface CategoryDao  extends BaseRepository<Category, Long> {
 }

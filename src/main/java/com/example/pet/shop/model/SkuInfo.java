@@ -14,6 +14,9 @@ import java.util.List;
 @Getter
 @Entity
 @Table(name = "T_SKU_INFO")
+@NamedQueries({
+    @NamedQuery(name="findAllSkuInfo", query="SELECT s FROM SkuInfo s")
+ })
 public class SkuInfo extends BizEntity {
     /**
      * spuId

@@ -5,5 +5,5 @@ import com.example.pet.shop.model.SkuInfo;
 import org.springframework.stereotype.Repository;
 
 @Repository("skuInfoDao")
-public interface SkuInfoDao  extends BaseRepository<SkuInfo, Long> {
+public interface SkuInfoDao extends BaseRepository<SkuInfo, Long> {
 }

@@ -6,7 +6,7 @@ import lombok.extern.log4j.Log4j2;
 import javax.annotation.Resource;
 
 @Log4j2
-public abstract class BaseBiz<T> {
+public abstract class BaseBiz {
 
     @Getter
     @Resource
