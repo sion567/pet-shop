@@ -24,8 +24,6 @@ public class BizEntity extends BaseEntity {
     @Generated(GenerationTime.ALWAYS)
     private Calendar updateDate;
 
-
-
     @Column(name = "edit_state", columnDefinition="tinyint default 0")
     private int editState;
 }
